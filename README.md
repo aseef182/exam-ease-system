@@ -1,34 +1,43 @@
-📚 Exam Ease System
+# 📚 Exam Ease System
+
 A Laravel-based web application for managing university exams, designed to simplify administration and reduce exam-day stress for students and invigilators.
 
-📝 Overview
-University exams can often be stressful and confusing.
+## 📝 Overview
+University exams can often be stressful and confusing.  
 Exam Ease System addresses this by offering a web-based platform that allows invigilators to efficiently set up, manage, and monitor exams, while students can easily view exam details and live countdown timers during exams.
 
-🎯 Features
-Invigilator Login: Secure login with individual credentials.
+## 🎯 Features
 
-Exam Management:
+### 🔐 Invigilator Login
+- Secure login with individual credentials.
 
-Create, update, and delete exam details (course name, date, timings, attending students).
+### 📅 Exam Management
+- Create, update, and delete exam details (course name, date, timings, attending students).
+- Set customizable countdown timers and alerts for exams.
 
-Set customizable countdown timers and alerts for exams.
+### 👨‍🎓 Student View
+- Dynamic student information page with real-time countdown timers and alerts.
 
-Student View:
+### ⚖️ UMC Case Management
+- Manage cases related to Unfair Means Committee (UMC).
 
-Dynamic student information page with real-time countdown timers and alerts.
+### 🛠️ Admin Access
+- Admin can add invigilator accounts (credentials management only).
 
-UMC Case Management: Manage cases related to Unfair Means Committee (UMC).
+## 🛠️ Tech Stack
 
-Admin Access:
+**Backend:**
+- Laravel (PHP)
 
-Admin can add invigilator accounts (credentials management only).
+**Frontend:**
+- Blade Templates
+- JavaScript
 
-🛠️ Tech Stack
-Backend: Laravel (PHP)
+**Database:**
+- MySQL
 
-Frontend: Blade Templates, JavaScript
+**Other Tools:**
+- Composer
+- Laravel Artisan
 
-Database: MySQL
-
-Other Tools: Composer, Laravel Artisan
+---
